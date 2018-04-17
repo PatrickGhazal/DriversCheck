@@ -1,7 +1,7 @@
 #ifndef __PS2_KEYBOARD
 #define __PS2_KEYBOARD
 
-	extern int read_ps2_data_ASM(char* data);
+	extern int read_PS2_data_ASM(char* data);
 	extern void enable_ps2_int_ASM(void);
 	extern void disable_ps2_int_ASM(void);
 	
